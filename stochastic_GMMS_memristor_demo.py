@@ -5,7 +5,7 @@
 #   Nanomaterials 2022, 12, 63. https://doi.org/10.3390/nano12010063
 #******************************************************************
 # Programmer: G. Laguna-Sanchez
-# Date: Oct 06, 2022
+# Date: Sept 13, 2023
 # Universidad Automoma Metropolitana
 # Unidad Lerma, Mexico
 #******************************************************************
@@ -33,6 +33,7 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 #
 #**************************************************************************
 #
+import sys
 import matplotlib.pyplot as plt
 import numpy as np
 import MonteCarlo_S_alpha_rand_core as sa
@@ -122,7 +123,7 @@ if __name__ == '__main__':
     # *****************************************************
     # N Timeline simulations:
     # *****************************************************
-    N = 10  #For N simulations
+    N = 2  #For N simulations
     for n in range(N):
         print("Simulation %i of %i" % (n+1,N))
         #Initial condition:
@@ -143,7 +144,10 @@ if __name__ == '__main__':
         for i in range(1, size):
 
             #Voltage divider:
-            Rm = 1.0 / G[i-1]   #Resistance of the memristor according to the latest update
+            if G[i-1] != 0.0: #Division by zero validation
+                Rm = 1.0 / G[i-1]   #Resistance of the memristor according to the latest update
+            else:
+                Rm = sys.float_info.max;   #Maximum value as infinite
             I[i] = V[i] / (Rm + Rs) #Current in series circuit
             Vm[i] = V[i] * Rm / (Rm + Rs) #Voltage drop across the memristor
 
