@@ -37,10 +37,9 @@ Fork the code to make the model more complicated, detailed, or accurate.
 ## RELATED MODELS
 
 - Generalized Mean Metastable Switch Memristor Model (GMMS)
-* [19]	T. Molter and A. Nugent, “The Mean Metastable Switch Memristor Model in Xyce,” Knowm web page, 2017. https://knowm.org/the-mean-metastable-switch-memristor-model-in-xyce/
+* T. Molter and A. Nugent, “The Mean Metastable Switch Memristor Model in Xyce,” Knowm web page, 2017. https://knowm.org/the-mean-metastable-switch-memristor-model-in-xyce/
  
 Specifically, to write this code, I took as a starting point the GMMS model improved in:
-
 * V. Ostrovskii, P. Fedoseev, Y. Bobrova, and D. Butusov, “Structural and Parametric Identification of Knowm Memristors,” Nanomaterials, Vol.12. No. 63, pp. 1–20, 2022.
 https://doi.org/10.3390/nano12010063
 
