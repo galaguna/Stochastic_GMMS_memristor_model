@@ -1,6 +1,8 @@
 # Stochastic_GMMS_memristor_model
 Alpha-stable based stochastic GMMS memristor model
 
+![Figure-1](figures/Figure_01.png)
+
 ## WHAT IS IT?
 This is an implementation that incorporates the variability of the hysteresis cycles within the Generalized Mean Metastable Switch Memristor Model (GMMS) based on the empirical alpha-stable characterization for the probability distributions of the Set and Reset thresholds of a typical Knowm SDC memristor. 
 
@@ -33,6 +35,13 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Fork the code to make the model more complicated, detailed, or accurate.
 
+## PUBLISHED
+
+The published work that complements the code of this repository is the following: 
+
+* G. Laguna-Sanchez, M. Lopez-Guerrero, and R. Barron-Fernandez, “The probabilistic behavior of the set and reset thresholds in Knowm's SDC memristors: Characterization and Simulation,” IEEE Latin American Transactions, Vol.xx. No. yy, pp. 1–9, 2023.
+
+This article outlines, in more detail, the related work and formal background of this proposal.
 
 ## RELATED MODELS
 
