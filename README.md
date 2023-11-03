@@ -39,7 +39,9 @@ Fork the code to make the model more complicated, detailed, or accurate.
 
 The published work that complements the code of this repository is the following: 
 
-* G. Laguna-Sanchez, M. Lopez-Guerrero, and R. Barron-Fernandez, “The probabilistic behavior of the set and reset thresholds in Knowm's SDC memristors: Characterization and Simulation,” IEEE Latin America Transactions, Vol.xx. No. yy, pp. 1–9, 2023.
+* Laguna-Sanchez, G. A., Lopez-Guerrero, M., & Barron-Fernandez, R. (2023). The probabilistic behavior of the set and reset thresholds in Knowm’s SDC memristors: Characterization and Simulation. IEEE Latin America Transactions, 21(12), 1266–1274. 
+Retrieved from
+https://latamt.ieeer9.org/index.php/transactions/article/view/8308
 
 This article outlines, in more detail, the related work and formal background of this proposal.
 
