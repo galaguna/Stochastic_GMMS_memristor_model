@@ -43,7 +43,7 @@ The published work that complements the code of this repository is the following
 Retrieved from
 https://latamt.ieeer9.org/index.php/transactions/article/view/8308
 
-This article outlines, in more detail, the related work and formal background of this proposal.
+This paper outlines, in more detail, the related work and formal background of this proposal.
 
 ## RELATED MODELS
 
